@@ -8,7 +8,7 @@ myMusic.play()
 function updateDB(){
     var db = firebase.firestore();
     userid = document.getElementById("userName").value;
-    std = document.getElementById("std").value;
+    std = parseInt(document.getElementById("std").value, 10);
     if(userid == "" || std == "" || classId == ""){
     alert("Some fields are empty")}else{
 
