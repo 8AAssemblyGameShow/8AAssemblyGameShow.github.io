@@ -21,7 +21,14 @@
         
                   
               <div class="lab"><label for="std" class="lab"><b>Please enter your standard</b></label></div>
-              <input type="number" placeholder="Enter standard (only digits)" id="std" required>
+              <select name="std" id="std">
+                <option value="5">5th</option>
+                <option value="6">6th</option>
+                <option value="7">7th</option>
+                <option value="8">8th</option>
+                <option value="9">9th</option>
+                <option value="10">10th</option>
+              </select>
 
               <input type = "button" onclick = "updateDB()" value = "Submit">
             </div></div>
