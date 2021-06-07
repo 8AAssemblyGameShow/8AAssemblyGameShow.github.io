@@ -14,6 +14,7 @@ body::-webkit-scrollbar-track{
     background: black;
 }
 
+
 .mainContainer{
     position: fixed;
     background-image: linear-gradient(var(--blue-1), var(--blue-4));
@@ -89,6 +90,15 @@ input[type=button]:hover{
     opacity: 1;
 }
 
+#std {
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+
+}
 
 
 .container {
